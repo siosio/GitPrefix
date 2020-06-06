@@ -1,7 +1,7 @@
 // import org.jetbrains.grammarkit.tasks.*
 
 plugins {
-    id "org.jetbrains.intellij" version '0.3.11'
+    id "org.jetbrains.intellij" version '0.4.21'
     // id "org.jetbrains.grammarkit" version '2020.1'
     id "org.jetbrains.kotlin.jvm" version '1.3.61'
 }
@@ -35,7 +35,7 @@ intellij {
     pluginName 'GitPrefix'
 
     // https://www.jetbrains.com/intellij-repository/releases
-    // version '193.5662.53'
+  // version "IU-LATEST-EAP-SNAPSHOT"
     type 'IU'
 
     plugins = ['git4idea']
